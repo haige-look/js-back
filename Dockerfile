@@ -8,7 +8,7 @@ WORKDIR /app
 COPY . .
 ENV PORT=4100
 
-# EXPOSE 4100
+EXPOSE 4100
 
 # 安装应用程序的依赖
 RUN npm install
